@@ -10,7 +10,7 @@ env:
   PROJECT_ID: ${{secrets.TEST_GCP_DEPLOYMENT_PROJECT}}
   GKE_CLUSTER: test-deployment-cluster
   GKE_ZONE: us-central1-c
-  DEPLOYMENT_NAME: test-deployment-cluster-deployment
+  DEPLOYMENT_NAME: gcp-deployment-tutorial
   IMAGE: test-deployment-cluster-image
   TAG: 1.0.0
   
